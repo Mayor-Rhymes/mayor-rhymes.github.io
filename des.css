@@ -21,7 +21,7 @@ body{
    padding: 20px 20px 0 20px;
    background-color: hsl(216, 50%, 16%);
    border-radius: 10px;
-   /* box-shadow: 3px 8px 10px hsl(216, 50%, 16%); */
+   box-shadow: 3px 8px 10px hsl(217, 54%, 11%);
    
 }
 
@@ -151,4 +151,5 @@ span{
 .pic p:hover span{
 
     color: hsl(178, 100%, 50%);
+    cursor: pointer;
 }
