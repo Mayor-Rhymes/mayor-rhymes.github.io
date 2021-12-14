@@ -1,0 +1,154 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit';
+}
+body{
+
+
+    background-color: hsl(217, 54%, 11%);
+}
+.card{
+
+   width: 350px;
+   height: 600px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 200px;
+   margin-bottom: 300px;
+   padding: 20px 20px 0 20px;
+   background-color: hsl(216, 50%, 16%);
+   border-radius: 10px;
+   /* box-shadow: 3px 8px 10px hsl(216, 50%, 16%); */
+   
+}
+
+.words{
+
+
+    margin-top: 10px;
+    /* color:  */
+    color: hsl(215, 51%, 70%);
+    /* font-weight: 400px; */
+}
+
+.tit{
+
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 15px;
+    
+}
+
+.tit:hover{
+
+
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+
+.desk{
+
+
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+img[src="images/image-equilibrium.jpg"]{
+
+
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+
+
+}
+
+.imager{
+
+
+    position: relative;
+}
+
+img[src="images/icon-view.svg"]{
+
+
+    display: none;
+    
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    
+
+
+}
+
+.blop{
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color:hsla(178, 100%, 50%, 0.4);;
+    display: none;
+    border-radius: 10px;
+}
+
+.imager:hover img[src="images/icon-view.svg"]{
+
+
+    display: block;
+    cursor: pointer;
+}
+
+.imager:hover .blop{
+
+
+    display: block;
+    cursor: pointer;
+}
+
+
+
+
+
+
+.line{
+
+    border: none;
+    margin-top: 20px;
+    border-bottom: 0.5px solid hsla(215, 51%, 70%, 0.3);
+    margin-bottom: 10px;
+
+}
+
+.pic{
+
+
+    display: flex;
+    justify-content:first baseline;
+    margin-top: 20px;
+}
+
+.pic p{
+
+
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+span{
+
+    color:white;
+}
+
+.pic p:hover span{
+
+    color: hsl(178, 100%, 50%);
+}
